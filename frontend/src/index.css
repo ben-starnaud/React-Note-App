@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.custom-gradient-bg {
+  background: linear-gradient(to bottom right, #FF5733, #ec205a);
+}
+
+.bg-custom-image {
+  background-image: url('../public/bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
